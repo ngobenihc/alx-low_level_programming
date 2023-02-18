@@ -1,25 +1,24 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Succes)
  */
+
 int main(void)
 {
-	int d;
+	int n;
 
-	for (d = '0'; d <= '9'; d++)
+	for (n = 0 ; n < 10 ; n++)
 	{
-		putchar(d);
-		if (d != '9')
+		putchar(n + '0');
+		if (n < 9)
 		{
 			putchar(',');
-			putchar(' ');
+			putchar(32);
 		}
 	}
 	putchar('\n');
-
 	return (0);
 }

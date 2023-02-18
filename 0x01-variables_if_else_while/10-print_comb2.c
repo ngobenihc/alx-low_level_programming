@@ -1,26 +1,31 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Succes)
  */
+
 int main(void)
 {
-	int d;
+	int n;
+	int i = 0;
 
-	for (d = 0; d < 100; d++)
+	for (n = 0 ; n < 100 ; n++)
 	{
-		putchar((d / 10) + '0');
-		putchar((d % 10) + '0');
-		if (d != 99)
+		putchar(n / 10 + '0');
+		putchar(i + '0');
+		if (n < 99)
 		{
 			putchar(',');
-			putchar(' ');
+			putchar(32);
+		}
+		i++;
+		if (i > 9)
+		{
+			i = 0;
 		}
 	}
 	putchar('\n');
-
 	return (0);
 }

@@ -9,21 +9,17 @@
 int main(void)
 {
 	int n;
-	int i;
 
-	for (n = 0 ; n < 9 ; n++)
+	for (n = 0 ; n < 16 ; n++)
 	{
-		i = n + 1;
-		do {
+		if (n < 10)
+		{
 			putchar('0' + n);
-			putchar('0' + i);
-			if (n < 8)
-			{
-				putchar(',');
-				putchar(32);
-			}
-			i++;
-		} while (i < 10);
+		}
+		else
+		{
+			putchar(87 + n);
+		}
 	}
 	putchar('\n');
 	return (0);
