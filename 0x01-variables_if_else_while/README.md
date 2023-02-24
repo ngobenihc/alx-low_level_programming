@@ -44,8 +44,3 @@ What you should learn from this project:
 
 ### [10. 00...99](./10-print_comb2.c)
 * Write a program that prints the numbers from 00 to 99.
-
----
-
-## Author
-* **Derrick Gee** - [kai-dg](https://github.com/kai-dg)
