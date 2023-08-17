@@ -1,6 +1,7 @@
+
 /*
  * File: 1-dlistint_len.c
- * Auth: Brennan D Baraban
+ * Auth: Auth: HC Ngobeni
  */
 
 #include "lists.h"

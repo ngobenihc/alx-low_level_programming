@@ -1,6 +1,6 @@
 /*
  * File: 8-delete_dnodeint.c
- * Auth: Brennan D Baraban
+ * Auth: Auth: HC Ngobeni
  */
 
 #include "lists.h"

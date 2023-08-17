@@ -1,11 +1,9 @@
 /*
  * File: 0-print_dlistint.c
- * Authour: HC Ngobeni
+ * Auth: HC Ngobeni
  */
- 
 
 #include "lists.h"
-
 
 /**
  * print_dlistint - Prints all the elements of a dlistint_t list.
@@ -26,4 +24,3 @@ size_t print_dlistint(const dlistint_t *h)
 
 	return (nodes);
 }
-

@@ -1,6 +1,6 @@
 /*
  * File: 6-sum_dlistint.c
- * Auth: Brennan D Baraban
+ * Auth: HC Ngobeni
  */
 
 #include "lists.h"
